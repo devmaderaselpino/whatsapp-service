@@ -16,6 +16,6 @@ Este es el **backend** de la aplicación **El Pino**, desarrollado con **Node.js
 ## Tecnologías
 
 - **Backend:** Node.js  
-- **API REST:** Apollo Server  
+- **API REST:** Axios 
 - **Base de datos:** MySQL
   
