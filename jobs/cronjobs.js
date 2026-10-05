@@ -9,7 +9,7 @@ const LIMITE_DIARIO = 200
 
 
 //cron.schedule('0 9 * * 1', async () => {
-cron.schedule('0 9 * * 1', async () => {
+cron.schedule('0 10 * * 1', async () => {
   console.log('📨 Cron: enviando recordatorios a clientes retrasados...')
 
   try {
@@ -98,8 +98,8 @@ cron.schedule('0 9 * * 1', async () => {
 }, { timezone: 'America/Mazatlan' })
 
 
-//cron.schedule('0 10 * * 1', async () => {
-cron.schedule('0 10 * * 1', async () => {
+//cron.schedule('0 11 * * 1', async () => {
+cron.schedule('0 11 * * 1', async () => {
   console.log('📨 Cron: enviando recordatorios de próximo pago...')
   const hoy = mazatlanHora().slice(0, 10)
 
